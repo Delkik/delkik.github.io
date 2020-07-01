@@ -305,6 +305,10 @@ footer{
   width: 3%;
 }
 
+.accomplish{
+  font-size: 50px;
+}
+
 @media (max-width: 1710px) {
   .personal, .professional{
     width: 60vw;
