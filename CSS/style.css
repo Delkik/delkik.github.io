@@ -305,11 +305,6 @@ footer{
   width: 3%;
 }
 
-.accomplish{
-  margin-top: 0;
-  padding-top: 5vh;
-}
-
 @media (max-width: 1710px) {
   .personal, .professional{
     width: 60vw;
