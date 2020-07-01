@@ -64,7 +64,7 @@ a.links, a.links:hover{
 #dan{
   margin:0;
   text-align: center;
-  font-size: xxx-large;
+  font-size: 50px;
   color: #999
 }
 
@@ -343,9 +343,5 @@ footer{
 
   #accomplishments{
     height: 40vh;
-  }
-
-  .acc{
-    font-size: 25px;
   }
 }
