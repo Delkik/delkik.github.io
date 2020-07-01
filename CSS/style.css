@@ -306,7 +306,8 @@ footer{
 }
 
 .accomplish{
-  font-size: 50px;
+  margin-top: 0;
+  padding-top: 5vh;
 }
 
 @media (max-width: 1710px) {
@@ -326,6 +327,10 @@ footer{
     width:60vw;
     height: 40vh;
     overflow: auto;
+  }
+
+  .accomplish{
+    font-size: 40px;
   }
 }
 
