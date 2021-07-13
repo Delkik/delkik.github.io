@@ -4,6 +4,7 @@
   margin:0;
   padding:0;
   border:0;
+  font-family:Arial, Helvetica, sans-serif;
 }
 
 html {
@@ -23,7 +24,7 @@ ul#navbar {
 li {
   float: left;
   font-size: large;
-  font-family:segoe UI;
+  font-family:Arial, Helvetica, sans-serif;
 }
 
 li a {
@@ -70,7 +71,7 @@ a.links, a.links:hover{
 
 #about{
   width: 100%;
-  height: 100vh;
+  height: 52vh;
   text-align: center;
   padding-top: 20px;
   color: #1c1c1c;
@@ -84,6 +85,7 @@ a.links, a.links:hover{
 	height:33vh;
   margin-top: 4vh;
   margin-bottom: 7vh;
+  margin-left: 28vw;
   overflow: auto;
   text-align: center;
 }
@@ -96,7 +98,7 @@ a.links, a.links:hover{
 }
 
 .professional{
-  margin-left: 4vw;
+  /* margin-left: 4vw; */
   box-shadow: 5px 6px rgb(10, 162, 255, 0.2);
   border: 1px solid rgb(10, 192, 242, 0.05);
   background-color: rgb(10, 192, 242, 0.1);
@@ -113,7 +115,7 @@ h1{font-size: 60px;margin-top: 3vh;}
 
 #projects{
   width: 100%;
-  height: 110vh;
+  height: 210vh;
   text-align: center;
   background-color: #fafafa;
   border-bottom: 1px solid #f0f0f0;
@@ -163,6 +165,18 @@ div.proj{
 .wip{
   background-image: url("images/WIP.png");
   padding-right: 10px;
+}
+
+.budget{
+  box-shadow: 5px 6px rgba(9, 225, 10, 0.2);
+  border: 1px solid rgba(9, 255, 0, 0.05);
+  background-color: rgba(9, 255, 0, 0.1);
+}
+
+.bmmo{
+  box-shadow: 5px 6px rgba(243, 106, 23, 0.2);
+  border: 1px solid rgba(243, 136, 13, 0.05);
+  background-color: rgba(243, 136, 13, 0.1);
 }
 
 .space{
@@ -256,9 +270,17 @@ h2{
   display: inline-block;
   padding: 5px;
   font-size: 32px;
-  margin-bottom: 4vh;
+  /* margin-bottom: 4vh; */
   margin-right: 1.5vh;
   margin-left: 1.5vh;
+}
+
+.cod{
+  margin-bottom: 4vh;
+  margin-top: 2vh;
+  background-color: rgba(39, 245, 12, 0.2);
+  border: 1px solid rgb(39, 245, 12, 0.2);
+  box-shadow: 2.5px 3px rgba(9, 160, 16, 0.5);
 }
 
 .val{
@@ -269,6 +291,7 @@ h2{
 }
 
 .dean{
+  margin-top: 1vh;
   background-color: rgb(255,0,0, 0.2);
   border: 1px solid rgb(255,0,0, 0.1);
   box-shadow: 2.5px 3px rgb(255,0,0, 0.7);
@@ -310,7 +333,7 @@ footer{
 @media (max-width: 1710px) {
   .personal, .professional{
     width: 60vw;
-    height: 36.5vh;
+    height: 34.5vh;
     margin-left: auto;
     margin-right: auto;
   }
@@ -326,12 +349,15 @@ footer{
     overflow: auto;
   }
 
-  .accomplish{
-    font-size: 40px;
+  .acc{
+    font-size: 24px;
   }
 
   li a{
     padding: 1vh 0.6vw;
+  }
+  .cod{
+    margin-top: 1vh;
   }
 }
 
@@ -344,10 +370,13 @@ footer{
 
   #skills{
     margin: auto;
-    height: 60vh;
+    height: 50vh;
   }
 
   #accomplishments{
     height: 40vh;
   }
+  /* .cod{
+    margin-top: 3vh;
+  } */
 }
