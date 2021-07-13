@@ -149,11 +149,11 @@ h1.project{
 }
 
 div.proj{
-  width: 400px;
-  height: 400px;
+  width: 40vh;
+  height: 40vh;
   margin: -2px;
   margin-right: 5px;
-  background-size: auto;
+  background-size: contain;
   background-repeat: no-repeat;
   float: left;
 }
@@ -349,6 +349,10 @@ footer{
     overflow: auto;
   }
 
+  /* .accomplish{
+    font-size: 30px;
+  } */
+
   .acc{
     font-size: 24px;
   }
@@ -358,6 +362,15 @@ footer{
   }
   .cod{
     margin-top: 1vh;
+  }
+}
+@media (max-width: 700px) {
+  .accomplish{
+    font-size: 30px;
+  }
+
+  .acc{
+    font-size: 15px;
   }
 }
 
