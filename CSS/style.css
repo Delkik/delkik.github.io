@@ -149,8 +149,8 @@ h1.project{
 }
 
 div.proj{
-  width: 50%;
-  height: 100%;
+  width: 40vh;
+  height: 40vh;
   margin: -2px;
   margin-right: 5px;
   background-size: contain;
