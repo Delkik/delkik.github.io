@@ -148,9 +148,12 @@ h1.project{
   overflow: auto;
 }
 
+.bmmi{
+  background-image: url("images/bmmo_login.png");
+  height: 50vh;
+  width: 28vh;
+}
 div.proj{
-  width: 40vh;
-  height: 40vh;
   margin: -2px;
   margin-right: 5px;
   background-size: contain;
@@ -160,23 +163,37 @@ div.proj{
 
 .pygame{
   background-image: url("images/titleScreen.png");
+  width: 40vh;
+  height: 40vh;
+}
+
+.budg{
+  background-image: url("images/budget_1.png");
+  width: 80vh;
+  height: 80vh;
 }
 
 .wip{
   background-image: url("images/WIP.png");
   padding-right: 10px;
+  width: 40vh;
+  height: 40vh;
 }
 
 .budget{
   box-shadow: 5px 6px rgba(9, 225, 10, 0.2);
   border: 1px solid rgba(9, 255, 0, 0.05);
   background-color: rgba(9, 255, 0, 0.1);
+  width: 80vw;
+  height: 40vh;
 }
 
 .bmmo{
   box-shadow: 5px 6px rgba(243, 106, 23, 0.2);
   border: 1px solid rgba(243, 136, 13, 0.05);
   background-color: rgba(243, 136, 13, 0.1);
+  width: 40vw;
+  height: 50vh;
 }
 
 .space{
@@ -195,6 +212,16 @@ div.proj{
   transition: 500ms;
   background-image: url("images/game.png");
   border-right: 1px fill black;
+}
+
+.bmmi:hover{
+  transition: 500ms;
+  background-image: url("images/bmmo_prof.png");
+}
+
+.budg:hover{
+  transition: 500ms;
+  background-image: url("images/budget_2.png");
 }
 
 .title{
